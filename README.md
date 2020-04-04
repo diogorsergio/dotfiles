@@ -21,6 +21,7 @@
 11. cd ~/Documents/Github/dotfiles
 12. cp .vimrc ~/.vimrc
 13. cp .zshrc ~/.zshrc
-14. Vim
-15. :PlugInstall
-16. brew install tmux
+14. cp .tmux.conf ~/.tmux.conf
+15. Vim
+16. :PlugInstall
+17. brew install tmux
