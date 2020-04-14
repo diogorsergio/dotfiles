@@ -106,19 +106,3 @@ DEFAULT_USER=$(whoami)
 prompt_dir() {
   prompt_segment blue $CURRENT_FG '%2~'
 }
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/diogosergio/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/diogosergio/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/diogosergio/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/diogosergio/opt/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
