@@ -10,7 +10,7 @@
 
 3. Download iTerm2
  - https://www.iterm2.com/
-
+ - Shortcut cmd+c > Send Hex Code for ctrl+c (0x03) > Slime Send
 
 4. iTerm Dracula theme
  - `git clone https://github.com/dracula/iterm.git ~/Documents/Github/`
