@@ -49,12 +49,17 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
  - `brew install python`
 
 
-11. VIM YouCompleteMe
+11. Vim
+ - `brew install vim`
+ - `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc`
+
+
+12. VIM YouCompleteMe
  - `cd ~/.vim/Plugged/YouCompleteMe`
  - `brew install cmake`
  - `python3 install.py`
 
 
-12. tmux
+13. tmux
  - `brew install tmux`
  - `cp .tmux.conf ~/.tmux.conf`
