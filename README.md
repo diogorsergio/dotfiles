@@ -45,8 +45,15 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 
 
-10. Python
- - `brew install python`
+10. Python + PyEnv
+ - `brew install pyenv`
+ - `echo 'eval "$(pyenv init -)"' >> .zshrc`
+ - `brew install zlib sqlite`
+ - `export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/sqlite/lib"`
+ - `export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/sqlite/include"`
+ - `pyenv install --list`
+ - `pyenv install 3.8.2`
+ - `pyenv global 3.8.2`
 
 
 11. Vim
